@@ -1,0 +1,36 @@
+package p1;
+import EmployeeBLC;
+import java.util.*;
+public class Employee_ELC {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the sal:");
+		int sal=s.nextInt();
+		System.out.println("enter the choice:");
+		int choice =s.nextInt();
+		 
+		switch(choice)
+		{
+		case 1: 
+			if (sal>=90000)
+			{
+	           System.out.println("employee is developer");
+			}
+		case 2: 
+			if (sal>=60000)
+			{
+	           System.out.println("employee is Design");
+			}
+		case 3: 
+			if (sal>=40000)
+			{
+	           System.out.println("employee is Tester");
+			}
+			default:System.out.println("invalid");
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package p2;
+import p1.*;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner s = new Scanner(System.in);
+System.out.println("enter v1:");
+int v1=s.nextInt();
+System.out.println("enter v2:");
+int v2=s.nextInt();
+Addition a= new Addition();
+Sub su=new Sub();
+Mul m=new Mul();
+Div d=new Div();
+ModDiv md=new ModDiv();
+
+	}
+
+}

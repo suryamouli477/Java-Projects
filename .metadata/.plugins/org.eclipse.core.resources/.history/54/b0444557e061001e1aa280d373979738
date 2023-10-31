@@ -1,0 +1,103 @@
+package p1;
+import p1.*;
+import java.util.*;
+public class Smain {
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter number of students:");
+		int n=s.nextInt();
+		Student a[]=new Student[n];
+		System.out.println("enter"+n+1+"student details:");
+		
+		System.out.println("Enter subject-1 marks:");
+		int sub1=s.nextInt();
+		if(sub1<35)
+			System.out.println("sub1 is failed:");
+		else if(sub1>35 &&sub1<50)
+		System.out.println("third class");
+		else if(sub1>50 &&sub1<75)
+			System.out.println("second class");
+		else if(sub1>75 &&sub1<100)
+			System.out.println("first  class");
+		
+		
+		System.out.println("Enter subject-2 marks:");
+		int sub2=s.nextInt();
+		if(sub2<35)
+			System.out.println("sub2 is failed:");
+		else if(sub2>35 &&sub1<50)
+		System.out.println("third class");
+		else if(sub2>50 &&sub1<75)
+			System.out.println("second class");
+		else if(sub2>75 &&sub1<100)
+			System.out.println("first  class");
+		
+		
+		System.out.println("Enter subject-3 marks:");
+		int sub3=s.nextInt();
+		if(sub3<35)
+			System.out.println("sub3 is failed:");
+		else if(sub3>35 &&sub1<50)
+		System.out.println("third class");
+		else if(sub3>50 &&sub1<75)
+			System.out.println("second class");
+		else if(sub3>75 &&sub1<100)
+			System.out.println("first  class");
+		
+		
+		System.out.println("Enter subject-4 marks:");
+		int sub4=s.nextInt();
+		if(sub4<35)
+			System.out.println("sub4 is failed:");
+		else if(sub4>35 &&sub1<50)
+		System.out.println("third class");
+		else if(sub4>50 &&sub1<75)
+			System.out.println("second class");
+		else if(sub4>75 &&sub1<100)
+			System.out.println("first  class");
+		
+		
+		System.out.println("Enter subject-5 marks:");
+		int sub5=s.nextInt();
+		if(sub5<35)
+			System.out.println("sub5 is failed:");
+		else if(sub5>35 &&sub1<50)
+		System.out.println("third class");
+		else if(sub5>50 &&sub1<75)
+			System.out.println("second class");
+		else if(sub5>75 &&sub1<100)
+			System.out.println("first  class");
+		
+		
+		System.out.println("Enter subject-6 marks:");
+		int sub6=s.nextInt();
+		if(sub6<35)
+			System.out.println("sub6 is failed:");
+		else if(sub6>35 &&sub1<50)
+		System.out.println("third class");
+		else if(sub6>50 &&sub1<75)
+			System.out.println("second class");
+		else if(sub6>75 &&sub1<100)
+			System.out.println("first  class");
+		
+		int totalmarks=sub1+sub2+sub3+sub4+sub5+sub6;
+
+
+
+
+
+
+		for(int i=0;i<a.length;i++)
+		{
+			a[i]=new Student();
+			System.out.println("enter Student roll:");
+			a[i].Sroll=s.nextLine();
+			System.out.println("enter Student name:");
+			a[i].Sname=s.nextLine();
+			System.out.println("enter branch:");
+			a[i].branch=s.nextLine();			
+			
+			}
+	}
+
+}

@@ -1,0 +1,23 @@
+package p2;
+import p1.*;
+import java.util.Scanner;
+public class Demo_var1 {
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		B ob =new B();
+		System.out.println("enter a value:");
+		ob.a=s.nextInt();
+		System.out.println("enter b value:");
+		A.b=s.nextInt();
+		System.out.println("enter c value:");
+		ob.c=s.nextInt();
+		System.out.println("enter d value");
+		B.d=s.nextInt();
+		ob.m1();
+		A.m2();
+		ob.m3();
+		B.m4();
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package p1;
+
+public  Interface ITest {
+	  {
+		public static final k=123;
+		public abstract void  dis();
+
+}

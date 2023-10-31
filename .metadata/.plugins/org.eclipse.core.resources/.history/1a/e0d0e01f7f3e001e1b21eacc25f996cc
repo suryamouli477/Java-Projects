@@ -1,0 +1,9 @@
+package p2;
+import p1.*;
+public class Demohide {
+	public static void main(String[] args) {
+		C.m(123);
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package p2;
+import p1.*;
+import java.util.*;
+public class Anonymous {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		
+		Itest ob=new Itest()
+				{
+
+					@Override
+					public void arthamatic(float a, float b,float c) {
+						c=a+b;
+						System.out.println(c);
+						
+					}
+			
+				};
+				System.out.println("Enter value a");
+				float a=s.nextInt();
+				System.out.println("Enter value b");
+				float b=s.nextInt(); 
+				
+	}
+
+}

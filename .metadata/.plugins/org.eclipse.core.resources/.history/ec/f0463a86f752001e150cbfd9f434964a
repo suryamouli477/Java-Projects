@@ -1,0 +1,17 @@
+package p1;
+public class Con2 {
+   public void Con2()
+   {
+	   int a=3;
+	   int b=5;
+	   
+	   System.out.println("a value is:"+a);
+	   System.out.println("b value is:"+b);
+   }
+   public void main(String args[]) {
+	   
+	   
+	   Con2 ob=new Con2();
+   }
+   
+}

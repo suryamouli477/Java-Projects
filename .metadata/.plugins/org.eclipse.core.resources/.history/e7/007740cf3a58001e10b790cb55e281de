@@ -1,0 +1,28 @@
+package p1;
+import java.util.*;
+public class Palindrom {
+	public  static void main(String args[])
+	{
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		int p=0,temp=n,r;
+		 while(n!=0)
+		 {
+			 r=n%10;
+			 n=n/10;
+			 p=(p*10)+r;
+			 
+		 }
+		 if(p==temp)
+		 {
+			 System.out.println("given number is polindrome"+n);
+		 }
+		 else
+		 {
+			 System.out.println("not a polindrome:"+n);
+		 }
+		 s.close();
+	}
+	
+
+}

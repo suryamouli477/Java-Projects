@@ -1,0 +1,21 @@
+package p1;
+import java.util.*;
+public class Assign1 {
+	public static void main(String args[])
+	{
+		Scanner s= new Scanner(System.in);
+		//System.out.println("enter first value:");
+		//int x=s.nextInt();
+		//System.out.println("enter second value:");
+		//int y=s.nextInt();
+		int x=2;
+		int y=9;
+			for(y=9;y<x;y--)
+			{
+				
+				System.out.println(y+" hi");
+			}
+		 
+	}
+
+}

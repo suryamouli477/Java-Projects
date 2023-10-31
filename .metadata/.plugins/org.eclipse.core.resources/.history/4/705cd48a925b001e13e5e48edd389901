@@ -1,0 +1,16 @@
+package p1;
+
+//import java.util.Scanner;
+
+public class Stringdemo4 {
+	public static void main(String[] args) {
+		//Scanner s=new Scanner(System.in);
+		String s1="java";
+		String s2="demo";
+		String s3="program";
+			String s4=s1+" "+s2+" "+s3;
+			System.out.println(""+s4);
+
+	}
+
+}

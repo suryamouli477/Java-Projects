@@ -1,0 +1,22 @@
+package p1;
+import java.util.*;
+public class NaturalNo {
+	int n;
+	public void  calculateSum()
+	{for(int i=1;i<=n;i++)
+	{
+		System.out.println("narural numbers are:"+i);
+	}
+		
+		
+	}
+	public static void main(String args[])
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter n value:");
+		int n=s.nextInt();
+		NaturalNo c=new NaturalNo();
+		c.calculateSum();
+	}
+
+}

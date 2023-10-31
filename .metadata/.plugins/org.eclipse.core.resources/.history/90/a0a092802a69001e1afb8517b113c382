@@ -1,0 +1,28 @@
+package p1;
+ class SuperThis 
+{
+	String s="parent variable";
+}
+	 class C extends SuperThis
+	{
+		String s="child variale";
+	
+		public void m1()
+		{
+			System.out.println(s);//child 
+			System.out.println(this.s);//child
+			System.out.println(super.s);//parent 
+			
+				
+		}
+		}
+public	class Test 
+{
+	public static void main(String args[])
+	{
+		C ob =new C();
+		ob.m1();
+	}
+}
+
+

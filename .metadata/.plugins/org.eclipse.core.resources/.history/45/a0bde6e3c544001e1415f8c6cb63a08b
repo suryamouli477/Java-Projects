@@ -1,0 +1,17 @@
+package p1;
+
+public class Student {
+String rollNo,name;
+
+Student(String rollNo,String name)
+{
+	this.rollNo=rollNo;
+	this.name=name;
+}
+void getStudent()
+{
+	System.out.println("Student Details");
+	System.out.println("student rollno:"+rollNo);
+	System.out.println("student name:"+name);
+}
+}

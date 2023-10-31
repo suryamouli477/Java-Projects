@@ -1,0 +1,20 @@
+package p2;
+import p1.*;
+public class Demo {
+	public static int b=10;
+	public int c=14;
+
+	public static void main(String[] args) {
+		Idisplay ob=(int d)->
+		{
+			System.out.println("d:"+d);
+			//System.out.println("a:"+a);
+			System.out.println("b:"+b);
+		//	System.out.println("c:"+c);
+			
+		};
+		
+ob.m1(12);
+	}
+
+}

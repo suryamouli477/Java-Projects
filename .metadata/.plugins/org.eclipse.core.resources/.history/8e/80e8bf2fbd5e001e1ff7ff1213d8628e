@@ -1,0 +1,32 @@
+package p1;
+
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+public class Stringdemo8 {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter string:");
+		String s1=s.nextLine();
+		System.out.println("Enter delimetr:");
+		String dl=s.nextLine();
+		StringTokenizer ob1=new StringTokenizer(s1,dl);
+		System.out.println("String:"+s1);
+		System.out.println("---after reverse---");
+		;
+		while(ob1.hasMoreTokens())
+		{
+			String ele=ob1.nextToken();
+			
+			if(ele.charAt(0)=='a')
+			{
+				StringBuffer sb=new StringBuffer(ele);
+					System.out.println("reverese" +sb.reverse());
+			}
+			
+		}
+
+	}
+
+}

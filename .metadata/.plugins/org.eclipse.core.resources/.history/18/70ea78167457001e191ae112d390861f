@@ -1,0 +1,25 @@
+package p1;
+import java.util.*;
+public class Dis{
+	public dis()	
+	{
+		int choice = s.nextInt();
+		return switch(choice)
+				{
+		default: yield null;
+		
+				};
+	}
+	
+}
+public class Yield {
+	public static void main(String args[]) {
+		Scanner s=new Scanner(System.in);
+		//int a=s.nextInt();
+		//int b=s.nextInt();
+		//int c;
+		int choice =s.nextInt();
+		 
+	}
+
+}

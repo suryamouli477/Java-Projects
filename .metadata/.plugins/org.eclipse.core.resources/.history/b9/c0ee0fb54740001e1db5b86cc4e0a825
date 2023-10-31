@@ -1,0 +1,10 @@
+package p1;
+
+public class Cclass {
+public static int b;
+static
+{
+	System.out.println("**cclass***");
+	System.out.println("b value is:"+b);
+}
+}

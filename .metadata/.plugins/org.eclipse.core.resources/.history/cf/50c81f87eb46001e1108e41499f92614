@@ -1,0 +1,11 @@
+package p2;
+import p1.*;
+public class DemoInner2 {
+
+	public static void main(String[] args) {
+		Subclass1 ob=new Subclass1();
+		ob.m1();
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package p1;
+
+public interface Idisplay {
+	public static final int d=11;
+	public abstract void m1(int a);
+	
+
+}

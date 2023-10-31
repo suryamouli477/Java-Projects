@@ -1,0 +1,11 @@
+package p1;
+
+public class C 
+{
+		public static void m(int x)
+		{
+			System.out.println("cclass");
+			System.out.println("x value is:"+x);
+		}			
+
+}

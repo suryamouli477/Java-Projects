@@ -1,0 +1,21 @@
+package p1;
+
+public class Cclass extends Pclass{
+	public Cclass(int a,int b,int c)
+	{
+		System.out.println("**cclass(a,b,c)**");
+		System.out.println("a:"+a);
+		System.out.println("a:"+b);
+		System.out.println("b:"+c);
+	}
+
+	public Cclass(int a,int b,int c,int d)
+	{
+		System.out.println("**cclass(a,b,c)**");
+		System.out.println("a:"+a);
+		System.out.println("a:"+b);
+		System.out.println("b:"+c);
+		System.out.println("b:"+d);
+	}
+
+}

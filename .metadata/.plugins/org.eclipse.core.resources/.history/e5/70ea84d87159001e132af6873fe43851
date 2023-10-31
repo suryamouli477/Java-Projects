@@ -1,0 +1,19 @@
+package p1;
+
+public class Stringrev {
+
+	public static void main(String[] args) {
+		 String str="program";
+		 int len=str.length();
+		 char ch=str.charAt(1);
+		 for(int i=str.length()-1;i>=0;i--)
+		 {
+			
+			 System.out.println(ch=str.charAt(i));
+		 }
+		 System.out.println("hai");
+		 System.out.println(len);
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package p1;
+import java.util.*;
+public class Con2 {
+	int a;
+	int b;
+
+public void con2(int a,int b)
+{
+	this.a=a;
+	this.b=b;
+}
+void dis()
+{
+	System.out.println("a value"+a);
+	System.out.println("b value"+b);
+}
+public static void main (String args[]) {
+	
+	Scanner s=new Scanner(System.in);
+	int v1=s.nextInt();
+	int v2=s.nextInt();
+	Con2 ob=new Con2();
+	System.out.println(ob);
+}
+}

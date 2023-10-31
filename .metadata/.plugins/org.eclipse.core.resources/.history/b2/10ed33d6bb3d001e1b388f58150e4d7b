@@ -1,0 +1,18 @@
+package p1;
+public class B extends A {
+	public int c;
+	public static int d;
+	public void m3()
+	{
+		System.out.println("cclass m3");
+		System.out.println("d value is:"+d);
+		System.out.println("c value is:"+c);
+	
+	}
+	public static void m4()
+	{
+		System.out.println("cclass m4");
+		System.out.println("d value is:"+d);
+	}
+
+}

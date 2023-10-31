@@ -1,0 +1,39 @@
+package p1;
+import java.util.*;
+public class Employee_ELC {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter the emp number");
+		//int empnumber=Integer.parseInt(s.nextLine());
+		int empnumber=s.nextInt();
+		System.out.println("enter the  empname");
+		String  empname=s.nextLine();
+		empname=s.nextLine();
+		
+		System.out.println("Enter the empsal:");
+		int empsal=s.nextInt();
+		EmployeeBLC ob=new EmployeeBLC( empnumber,  empname, empsal);
+		 if (empsal>90000)
+		 {
+		 
+			System.out.println("this employee is developer"+empsal);
+		 }
+		 else if (empsal>=60000 && empsal<=90000)
+		 {
+		 
+			System.out.println("this employee is dsg"+empsal);
+		 }
+		 else if (empsal>=40000)
+		 {
+		 
+			System.out.println("this employee is tester"+empsal);
+		 }
+		 else
+		 {
+			 System.out.println("invalid");
+		 }
+
+	}
+
+}

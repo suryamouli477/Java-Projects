@@ -1,0 +1,13 @@
+package p1;
+
+public class Display<T>
+{
+	public T ob4;
+	public final T getob() {
+		return ob4;
+	}
+	public final void setob(T ob) {
+		this.ob4=ob4;
+	}
+
+}

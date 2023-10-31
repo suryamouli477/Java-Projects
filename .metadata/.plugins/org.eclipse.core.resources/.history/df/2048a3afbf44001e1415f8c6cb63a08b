@@ -1,0 +1,35 @@
+
+package p1;
+import java.util.Scanner;
+class Display{
+	int x,y;
+Display(int x,int y)
+{
+	this.x=x;
+	this.y=y;
+}
+void dis()
+{
+	System.out.println("*method dis()*");
+	System.out.println("the x value:"+x);
+	System.out.println("the y value:"+y);
+}
+public class Democon2 {
+
+	public static void main(String[] args) {
+	Scanner s=new Scanner(System.in);
+	System.out.println("Enter the x value:");
+	int x=s.nextInt();
+	System.out.println("Enter the y value:");
+	int y=s.nextInt();
+	Display ob =new Display(x,y);
+ob.dis();
+ob.dis();
+	s.close();
+
+
+	}
+
+}
+}
+

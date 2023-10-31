@@ -1,0 +1,33 @@
+package p1;
+
+public class Subclass1 {
+	int a;
+	static int b;
+	public void m1()
+	{
+		System.out.println("outer class m1()");
+		System.out.println("a:"+a);
+		System.out.println("b:"+b);
+	}
+public class Subclass2{
+	int x;
+	static int y;
+	public void m2()
+	{
+		System.out.println("inner class m2()");
+		System.out.println("x"+x);
+		System.out.println("x"+y);
+		System.out.println("a:"+a);
+		System.out.println("b:"+b);
+	}
+	public static void m22()
+	{
+		System.out.println("inner class m2()");
+		//System.out.println("x"+x);
+		System.out.println("x"+y);
+		//System.out.println("a:"+a);
+		System.out.println("b:"+b);
+		
+	}
+}
+}
