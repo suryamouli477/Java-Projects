@@ -3382,4 +3382,9 @@
   <categories xmi:id="_Ehfq13gUEe6Qe71ebYcvKA" elementId="org.eclipse.search.ui.category.search" name="Search" description="Search command category"/>
   <categories xmi:id="_Ehfq2HgUEe6Qe71ebYcvKA" elementId="org.eclipse.egit.ui.commandCategory" name="Git"/>
   <categories xmi:id="_Ehfq2XgUEe6Qe71ebYcvKA" elementId="org.eclipse.datatools.sqltools.sqleditor.category" name="Database Tools" description="Database Development tools"/>
-  <categories xmi:id="_Ehfq2ngUEe6Qe71ebYcvKA" elementId="org.ecli
+  <categories xmi:id="_Ehfq2ngUEe6Qe71ebYcvKA" elementId="org.eclipse.ui.category.perspectives" name="Perspectives" description="Commands for opening perspectives"/>
+  <categories xmi:id="_Ehfq23gUEe6Qe71ebYcvKA" elementId="org.eclipse.ltk.ui.category.refactoring" name="Refactoring"/>
+  <categories xmi:id="_Ehfq3HgUEe6Qe71ebYcvKA" elementId="org.eclipse.gef.category.view" name="View" description="View"/>
+  <categories xmi:id="_Ehfq3XgUEe6Qe71ebYcvKA" elementId="org.eclipse.jdt.ui.category.source" name="Source" description="Java Source Actions"/>
+  <categories xmi:id="_Ehfq3ngUEe6Qe71ebYcvKA" elementId="org.eclipse.pde.runtime.spy.commands.category" name="Spy"/>
+</application:Application>
